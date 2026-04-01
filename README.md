@@ -6,17 +6,17 @@
 
 | 分类 | 项目 |
 |------|------|
-| [记忆与知识管理](#记忆与知识管理) | Khoj, Supermemory, Hermes-Agent, MSA |
+| [记忆与知识管理](#记忆与知识管理) | MuSEAgent, Khoj, Supermemory, Hermes-Agent, MSA |
 | [多Agent协作](#多agent协作) | AgentScope, ChatDev 2.0, Drop the Hierarchy, MiroFish |
 | [Agent开发框架](#agent开发框架) | LangGraph, Deer-Flow, DeerFlow 2.0, oh-my-claudecode |
-| [AI安全与测试](#ai安全与测试) | AgentFixer, llm-sast-scanner, strix, SlopCodeBench |
+| [AI安全与测试](#ai安全与测试) | Beyond pass@1, AgentFixer, llm-sast-scanner, strix, SlopCodeBench |
 | [推理与优化](#推理与优化) | Draft-Thinking, Think-Anywhere, AVO, Nemotron-Cascade 2 |
 | [多模态](#多模态) | EVA, LongCat-Next, SpecEyes, LTX-2 |
 | [GUI与自动化](#gui与自动化) | UI-Voyager, K²-Agent, browser-use, wecom-cli |
 | [研究与科学](#研究与科学) | AI-Scientist-v2, Hyperagents, EvoScientist, Intern-S1-Pro |
 | [编程工具](#编程工具) | everything-claude-code, claude-howto, claude-code-best-practice, learn-claude-code |
-| [金融与量化](#金融与量化) | TradingAgents, dexter, daily_stock_analysis |
-| [其他工具](#其他工具) | VibeVoice, Onyx, Phantom, agent-lightning |
+| [金融与量化](#金融与量化) | OpenBB, TradingAgents, dexter, daily_stock_analysis |
+| [其他工具](#其他工具) | CausalPulse, Phantom, VibeVoice, Onyx, agent-lightning |
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 项目 | 链接 | 核心问题 | 适用场景 | 日期 |
 |------|------|----------|----------|------|
+| MuSEAgent（论文） | [arXiv](https://arxiv.org/abs/2603.27813) | 多模态Agent缺乏状态化经验复用能力 | 多模态推理；视觉感知 | 2026-04-01 |
 | Khoj | [GitHub](https://github.com/khoj-ai/khoj) | AI助手缺乏持久记忆 | 个人AI知识库；企业内网RAG | 2026-04-01 |
 | Supermemory | [GitHub](https://github.com/supermemoryai/supermemory) | RAG无状态，无法追踪用户变化 | 多用户AI产品记忆API | 2026-03-26 |
 | Hermes-Agent | [GitHub](https://github.com/NousResearch/Hermes-Agent) | 跨会话失忆，无法积累偏好 | 长期记忆个人AI助手 | 2026-03-26 |
@@ -51,6 +52,7 @@
 
 | 项目 | 链接 | 核心问题 | 适用场景 | 日期 |
 |------|------|----------|----------|------|
+| Beyond pass@1（论文） | [arXiv](https://arxiv.org/abs/2603.29231) | pass@1无法衡量Agent长周期可靠性 | Agent可靠性评估；生产部署 | 2026-04-01 |
 | AgentFixer | [arXiv](https://arxiv.org/abs/2603.29848) | Agent缺乏系统性故障检测 | 生产环境质量保障 | 2026-04-01 |
 | llm-sast-scanner | [GitHub](https://github.com/SunWeb3Sec/llm-sast-scanner) | AI编程缺乏安全扫描能力 | AI+安全DevSecOps | 2026-04-01 |
 | strix | [GitHub](https://github.com/usestrix/strix) | 静态扫描误报率高 | DevSecOps CI/CD | 2026-03-27 |
@@ -105,6 +107,7 @@
 
 | 项目 | 链接 | 核心问题 | 适用场景 | 日期 |
 |------|------|----------|----------|------|
+| OpenBB | [GitHub](https://github.com/OpenBB-finance/OpenBB) | 金融数据源分散，AI Agent接入门槛高 | 量化分析；AI金融Agent数据层 | 2026-04-01 |
 | TradingAgents | [GitHub](https://github.com/TauricResearch/TradingAgents) | 单一模型缺乏多角度博弈验证 | 量化策略研究 | 2026-03-24 |
 | dexter | [GitHub](https://github.com/virattt/dexter) | AI金融分析无自我验证 | 基本面财报分析 | 2026-03-27 |
 | daily_stock_analysis | [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM股票分析无法持续运行 | 个人A/H/美股分析 | 2026-03-28 |
@@ -113,6 +116,7 @@
 
 | 项目 | 链接 | 核心问题 | 适用场景 | 日期 |
 |------|------|----------|----------|------|
+| CausalPulse（论文） | [arXiv](https://arxiv.org/abs/2603.29755) | 制造业根因分析流程割裂，无法实时诊断 | 智能制造；工业级多Agent | 2026-04-01 |
 | Phantom | [GitHub](https://github.com/ghostwright/phantom) | Agent无持续存在，无法自主进化 | 企业自托管AI同事 | 2026-04-01 |
 | VibeVoice | [GitHub](https://github.com/microsoft/VibeVoice) | 长音频无法同时输出说话人分离 | 企业会议转录 | 2026-03-30 |
 | Onyx | [GitHub](https://github.com/onyx-dot-app/onyx) | 企业知识库整合门槛高 | 企业内部知识库问答 | 2026-03-28 |
@@ -131,7 +135,7 @@
 ## 全部项目索引
 
 <details>
-<summary>点击展开完整列表（52个项目）</summary>
+<summary>点击展开完整列表（53个项目）</summary>
 
 | # | 项目名称 | 收录日期 |
 |---|----------|----------|
@@ -184,6 +188,10 @@
 | 47 | AgentFixer | 2026-04-01 |
 | 48 | Hyperagents | 2026-04-01 |
 | 49 | Drop the Hierarchy | 2026-04-01 |
+| 50 | MuSEAgent | 2026-04-01 |
+| 51 | Beyond pass@1 | 2026-04-01 |
+| 52 | OpenBB | 2026-04-01 |
+| 53 | CausalPulse | 2026-04-01 |
 
 </details>
 
