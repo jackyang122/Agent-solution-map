@@ -11,12 +11,12 @@
 | [Agent开发框架](#agent开发框架) | LangGraph, Deer-Flow, DeerFlow 2.0, oh-my-claudecode |
 | [AI安全与测试](#ai安全与测试) | Beyond pass@1, AgentFixer, llm-sast-scanner, strix, SlopCodeBench |
 | [推理与优化](#推理与优化) | Draft-Thinking, Think-Anywhere, AVO, Nemotron-Cascade 2 |
-| [多模态](#多模态) | EVA, LongCat-Next, SpecEyes, LTX-2 |
+| [多模态](#多模态) | EVA, LongCat-Next, SpecEyes, LTX-2, ATP-Bench, AEC-Bench |
 | [GUI与自动化](#gui与自动化) | UI-Voyager, K²-Agent, browser-use, wecom-cli |
 | [研究与科学](#研究与科学) | AI-Scientist-v2, Hyperagents, EvoScientist, Intern-S1-Pro |
 | [编程工具](#编程工具) | everything-claude-code, claude-howto, claude-code-best-practice, learn-claude-code |
 | [金融与量化](#金融与量化) | OpenBB, TradingAgents, dexter, daily_stock_analysis |
-| [其他工具](#其他工具) | CausalPulse, Phantom, VibeVoice, Onyx, agent-lightning |
+| [其他工具](#其他工具) | CausalPulse, Phantom, VibeVoice, Onyx, agent-lightning, PAR²-RAG, mem0 |
 
 ---
 
@@ -75,6 +75,8 @@
 | LongCat-Next | [arXiv](https://arxiv.org/abs/2603.27538) | 多模态理解与生成模型割裂 | 多模态产品设计 | 2026-04-01 |
 | SpecEyes | [arXiv](https://arxiv.org/abs/2603.23483) | 工具调用链串行延迟高 | MLLM推理加速 | 2026-03-26 |
 | LTX-2 | [GitHub](https://github.com/Lightricks/LTX-2) | 音视频生成不同步 | 音视频联合生成 | 2026-01-07 |
+| ATP-Bench（论文） | [arXiv](https://arxiv.org/abs/2603.29902) | MLLM缺乏工具规划能力评估标准 | 多模态Agent工具调度；MLLM评测 | 2026-04-02 |
+| AEC-Bench（论文） | [arXiv](https://arxiv.org/abs/2603.29199) | 建筑工程领域缺乏多模态Agent基准 | 建筑/工程/施工AI应用 | 2026-04-02 |
 
 ## GUI与自动化
 
@@ -129,13 +131,15 @@
 | LongCat-Flash-Prover | [arXiv](https://arxiv.org/abs/2603.21065) | LLM无法完成Lean4形式化证明 | 代码形式化验证 | 2026-03-26 |
 | last30days-skill | [GitHub](https://github.com/mvanhorn/last30days-skill) | 多平台舆情调研效率低 | 竞品情报收集 | 2026-03-27 |
 | obra/superpowers | [GitHub](https://github.com/obra/superpowers) | 编码Agent缺乏工程方法论 | 团队工程规范统一 | 2026-03-29 |
+| PAR²-RAG（论文） | [arXiv](https://arxiv.org/abs/2603.29085) | 多跳问答中早期检索错误累积导致答案失准 | 复杂问答RAG；Agent知识检索 | 2026-04-02 |
+| mem0 | [GitHub](https://github.com/mem0ai/mem0) | AI应用缺乏跨会话持久化记忆层 | 个性化AI助手；Agent记忆管理 | 2026-04-02 |
 
 ---
 
 ## 全部项目索引
 
 <details>
-<summary>点击展开完整列表（53个项目）</summary>
+<summary>点击展开完整列表（57个项目）</summary>
 
 | # | 项目名称 | 收录日期 |
 |---|----------|----------|
@@ -192,6 +196,10 @@
 | 51 | Beyond pass@1 | 2026-04-01 |
 | 52 | OpenBB | 2026-04-01 |
 | 53 | CausalPulse | 2026-04-01 |
+| 54 | ATP-Bench | 2026-04-02 |
+| 55 | AEC-Bench | 2026-04-02 |
+| 56 | PAR²-RAG | 2026-04-02 |
+| 57 | mem0 | 2026-04-02 |
 
 </details>
 
