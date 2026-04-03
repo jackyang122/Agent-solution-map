@@ -10,6 +10,7 @@
 | [多Agent协作](#多agent协作) | AgentScope, ChatDev 2.0, Drop the Hierarchy, MiroFish |
 | [Agent开发框架](#agent开发框架) | LangGraph, Deer-Flow, DeerFlow 2.0, oh-my-claudecode |
 | [AI安全与测试](#ai安全与测试) | Beyond pass@1, AgentFixer, llm-sast-scanner, strix, SlopCodeBench |
+| [Agent评估基准](#agent评估基准) | HippoCamp, YC-Bench, Pare |
 | [推理与优化](#推理与优化) | Draft-Thinking, Think-Anywhere, AVO, Nemotron-Cascade 2 |
 | [多模态](#多模态) | EVA, LongCat-Next, SpecEyes, LTX-2, ATP-Bench, AEC-Bench |
 | [GUI与自动化](#gui与自动化) | UI-Voyager, K²-Agent, browser-use, wecom-cli |
@@ -29,6 +30,7 @@
 | Supermemory | [GitHub](https://github.com/supermemoryai/supermemory) | RAG无状态，无法追踪用户变化 | 多用户AI产品记忆API | 2026-03-26 |
 | Hermes-Agent | [GitHub](https://github.com/NousResearch/Hermes-Agent) | 跨会话失忆，无法积累偏好 | 长期记忆个人AI助手 | 2026-03-26 |
 | MSA（论文） | [arXiv](https://arxiv.org/abs/2603.23516) | 上下文被限制在1M Token内 | 长期记忆AI助理 | 2026-03-29 |
+| OmniMem（论文） | [arXiv](https://arxiv.org/abs/2604.01007) | 终身多模态Agent记忆设计空间过大，人工难以穷举 | 多模态长期记忆Agent；AutoML记忆优化 | 2026-04-03 |
 
 ## 多Agent协作
 
@@ -77,6 +79,14 @@
 | LTX-2 | [GitHub](https://github.com/Lightricks/LTX-2) | 音视频生成不同步 | 音视频联合生成 | 2026-01-07 |
 | ATP-Bench（论文） | [arXiv](https://arxiv.org/abs/2603.29902) | MLLM缺乏工具规划能力评估标准 | 多模态Agent工具调度；MLLM评测 | 2026-04-02 |
 | AEC-Bench（论文） | [arXiv](https://arxiv.org/abs/2603.29199) | 建筑工程领域缺乏多模态Agent基准 | 建筑/工程/施工AI应用 | 2026-04-02 |
+
+## Agent评估基准
+
+| 项目 | 链接 | 核心问题 | 适用场景 | 日期 |
+|------|------|----------|----------|------|
+| HippoCamp（论文） | [arXiv](https://arxiv.org/abs/2604.01221) | 现有基准无法评估Agent在真实个人文件环境中的上下文感知推理 | 个人AI助手评估；多模态文件管理 | 2026-04-03 |
+| YC-Bench（论文） | [arXiv](https://arxiv.org/abs/2604.01212) | 缺乏评估Agent长期规划与一致执行能力的基准 | 长周期Agent评估；商业决策模拟 | 2026-04-03 |
+| Pare（论文） | [arXiv](https://arxiv.org/abs/2604.00842) | 缺乏真实用户模拟框架导致主动Agent难以评估 | 主动AI助手研发；数字环境Agent测试 | 2026-04-03 |
 
 ## GUI与自动化
 
@@ -139,7 +149,7 @@
 ## 全部项目索引
 
 <details>
-<summary>点击展开完整列表（57个项目）</summary>
+<summary>点击展开完整列表（61个项目）</summary>
 
 | # | 项目名称 | 收录日期 |
 |---|----------|----------|
@@ -200,6 +210,10 @@
 | 55 | AEC-Bench | 2026-04-02 |
 | 56 | PAR²-RAG | 2026-04-02 |
 | 57 | mem0 | 2026-04-02 |
+| 58 | HippoCamp | 2026-04-03 |
+| 59 | OmniMem | 2026-04-03 |
+| 60 | YC-Bench | 2026-04-03 |
+| 61 | Pare | 2026-04-03 |
 
 </details>
 
